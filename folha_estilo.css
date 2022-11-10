@@ -1,15 +1,17 @@
 body{
-    background-color:black
+    background-color:rgb(167, 0, 0)
 }
 h1{
-    color:antiquewhite
+    color:rgb(167, 0, 0)
 }
 p {
-    color:antiquewhite
+    color:rgb(167, 0, 0)
 }
-body{background-image:url(pexels-john-petalcurin-4317157.jpg) ;
+body{background-image:url(pexels-nathan-b-caldeira-6125337.jpg) ;
     background-repeat:no-repeat;
-background-size:100% ;}
+    background-position: right 0;
+    background-size: cover;
+}
 .borda1 {
     margin-left: 50px;
     padding-top: 15px;
@@ -30,3 +32,42 @@ body{
     font-family: serif;
     font-size: 2rem;
 }
+header{
+    width: 100%;
+    background-color: rgb(119, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0; 
+
+}
+
+.logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    background-image: url(downlowd.jpg);
+    background-size: auto;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo-texto{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+
+}
+.menu li{
+    display: inline-block;
+    margin: 0 50px;
+
+}
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+} 
